@@ -110,7 +110,14 @@
         $response = curl_exec($curl);
         
         curl_close($curl);
-        return $response;
+      
+        if($response){
+            return $response;
+        }else{
+            return "还没开始抢";
+            echo "\n";
+        }
+        curl_close($curl);
     }
 
 
