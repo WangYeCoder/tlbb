@@ -16,21 +16,24 @@
     public  function doStart()
     {
         //cookie时间很久 超过半小时 验证码图片那里获取过来 通用于下订单
-        $goodsNum = "202002221638031837";
-        $cookie="Cookie: NOTE_CACHE=%5B%7B%22id%22%3A200%2C%22title%22%3A%22%E6%B5%8B%E6%9C%8D%E9%BE%99%E9%97%A8NPC%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1432711191000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A198%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%E5%AE%8C%E6%88%90%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431314942000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A197%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431312451000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A196%2C%22title%22%3A%22%E3%80%904%E6%9C%8817%E6%97%A5%E7%BB%B4%E6%8A%A4%E3%80%91%E7%95%85%E6%98%93%E9%98%81.%E9%81%93%E5%85%B7%E5%9D%8A%E7%BB%B4%E6%8A%A4%E5%85%AC%E5%91%8A%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1429156000000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A192%2C%22title%22%3A%22%E3%80%90%E6%96%B0%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%E3%80%91%E4%BB%A4%E7%89%8C%E5%B1%95%E7%A4%BA%E5%8A%9F%E8%83%BD%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1427165782000%2C%22context%22%3A%22'TL''ZJ'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%5D; NOTE_UPDATE_TIME=1582956918873; macid=C87E6C3764B0000161E6B4027DB019DC; _ga=GA1.2.879713598.1561188145; pgv_pvi=7768772395; bdshare_firstime=1580351547920; sid=d92d9345-2898-4e64-a3dc-f017d88f62ec; Apache=113.121.232.197.1582952071890191; productid=-1; last_product_id=-1; softlinkdomain=; softlinkpage=; keyword=; engineid=; sourcetype=direct_access; CASGTC=GTC-17462EC9-12FA-4AD5-862E-C697873F5E08-1582954196982; accessid_settime=1582958290249; last_domain=http%3A//zhuce.changyou.com/newRegTLDeepPerson.act; tongji=adid__access_id_C8CF85D851E00001945911E016B22890_product_id_-1_source_type_direct_access_engine_id__key_word__soft_link_domain__soft_link_page__last_product_id_-1_last_domain_http%3A//zhuce.changyou.com/newRegTLDeepPerson.act_current_domain_http%3A//zhuce.changyou.com/newRegtlDeep.act_top_page_http%3A//zhuce.changyou.com/regInit.act%3FgameType%3DPE-DHSH_mac_id_C87E6C3764B0000161E6B4027DB019DC_mac_new_0_method_normal_sessionid_113.121.232.197.1582952071890191; NOTE_CACHE=%5B%7B%22id%22%3A200%2C%22title%22%3A%22%E6%B5%8B%E6%9C%8D%E9%BE%99%E9%97%A8NPC%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1432711191000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A198%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%E5%AE%8C%E6%88%90%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431314942000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A197%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431312451000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A196%2C%22title%22%3A%22%E3%80%904%E6%9C%8817%E6%97%A5%E7%BB%B4%E6%8A%A4%E3%80%91%E7%95%85%E6%98%93%E9%98%81.%E9%81%93%E5%85%B7%E5%9D%8A%E7%BB%B4%E6%8A%A4%E5%85%AC%E5%91%8A%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1429156000000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A192%2C%22title%22%3A%22%E3%80%90%E6%96%B0%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%E3%80%91%E4%BB%A4%E7%89%8C%E5%B1%95%E7%A4%BA%E5%8A%9F%E8%83%BD%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1427165782000%2C%22context%22%3A%22'TL''ZJ'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%5D; qrcodeid=63e5aba86b692322c16d08806112ed34e2d793609bea3ce816f370eef909d4d8cbb2d414e7a10fbbb1ed7857342bf32c; NOTE_UPDATE_TIME=1582959656738; accessid=; visittime=; COOKIE_GOODS_SCANED=%25E8%258A%25AD%25E6%25AF%2594%25EF%25BC%258E%25CB%2587%253D202002101106182476%253D230000.0%253D3%2527%25E5%2590%259B%25E5%25AD%2590%25E7%2581%25AC%25E6%259A%2597%25E9%25A6%2599%253D202002221634111762%253D100.0%253D6%2527%25E8%2597%25A4%25E8%2597%25A4%25E8%258F%259C%25E2%2584%25A1%253D202002222001515166%253D388.0%253D7%2527%25E2%2595%25B0%25E2%2598%2586%25E2%2595%25AE%25E8%258B%258F%25E9%25BB%258E%25E4%25B8%2596%253D202002221820333415%253D550.0%253D10%2527%25E2%2586%2590%25E7%25B4%2585%25E5%25A6%259D%25E7%25B4%25A0%25E8%25A3%25B9%25E2%2586%2592%253D202002271239101314%253D188.0%253D6%2527; JSESSIONID=6D3985DF8970834C740F4762FA51C330";
+        $goodsNum = "202002221640401883";
+        $cookie = "Cookie: NOTE_CACHE=%5B%7B%22id%22%3A200%2C%22title%22%3A%22%E6%B5%8B%E6%9C%8D%E9%BE%99%E9%97%A8NPC%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1432711191000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A198%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%E5%AE%8C%E6%88%90%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431314942000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A197%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431312451000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A196%2C%22title%22%3A%22%E3%80%904%E6%9C%8817%E6%97%A5%E7%BB%B4%E6%8A%A4%E3%80%91%E7%95%85%E6%98%93%E9%98%81.%E9%81%93%E5%85%B7%E5%9D%8A%E7%BB%B4%E6%8A%A4%E5%85%AC%E5%91%8A%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1429156000000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A192%2C%22title%22%3A%22%E3%80%90%E6%96%B0%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%E3%80%91%E4%BB%A4%E7%89%8C%E5%B1%95%E7%A4%BA%E5%8A%9F%E8%83%BD%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1427165782000%2C%22context%22%3A%22'TL''ZJ'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%5D; NOTE_UPDATE_TIME=1582952445234; macid=C87E6C3764B0000161E6B4027DB019DC; _ga=GA1.2.879713598.1561188145; pgv_pvi=7768772395; bdshare_firstime=1580351547920; sid=d92d9345-2898-4e64-a3dc-f017d88f62ec; Apache=113.121.232.197.1582952071890191; productid=-1; last_product_id=-1; accessid=C8CF7FEA48600001DF3E150A6AA73400; accessid_settime=1582952072366; softlinkdomain=; softlinkpage=; keyword=; engineid=; sourcetype=direct_access; visittime=1582954168160; last_domain=http%3A//zhuce.changyou.com/regInit.act; tongji=adid__access_id_C8CF7FEA48600001DF3E150A6AA73400_product_id_-1_source_type_direct_access_engine_id__key_word__soft_link_domain__soft_link_page__last_product_id_-1_last_domain_http%3A//zhuce.changyou.com/regInit.act_current_domain_http%3A//zhuce.changyou.com/reg.act_top_page_http%3A//zhuce.changyou.com/regInit.act%3FgameType%3DPE-ZHPT_mac_id_C87E6C3764B0000161E6B4027DB019DC_mac_new_0_method_normal_sessionid_113.121.232.197.1582952071890191; CASGTC=GTC-17462EC9-12FA-4AD5-862E-C697873F5E08-1582954196982; qrcodeid=74114deedfbc5f182fdd2780cfae8bb9301fce721666bb1a0f86269b1b2b8d20d52864e09720a6342a20a10252d76304; COOKIE_GOODS_SCANED=%25E8%2589%25BE%25E7%2591%259E%25E5%25B7%25B4%25E8%2592%2582%25E8%25B7%25B3%25EF%25BC%258E%253D20200219000512794%253D99900.0%253D3%2527%25E7%25BE%25BD%25E7%25BF%25BC%25E7%25BF%25BC%25E2%2580%25A6%253D202002221346279322%253D555.0%253D7%2527%25EF%25B9%258E%25E9%2586%2589%25E5%2587%258C%25E9%2580%258D%25E3%2582%259E%253D20200218246457520%253D358888.0%253D8%2527%25E8%2590%25A7%25E5%25B8%2583%25E8%25A1%25A3%253D202002222235087784%253D500.0%253D3%2527%25EF%25BC%258E%25E9%259D%2592%25E6%259F%25A0%25E3%2581%25A3%253D202002261230413581%253D100.0%253D11; JSESSIONID=1406F4DC43C5A5FCE918626B8B09FB36; sid=be0f76e6-331a-4b79-a487-87bb677be182; JSESSIONID=5681B0D5515E6FC2FB06D3F864BF6183";
         $res=$this->getImgTem($cookie,$goodsNum);
         $code =$res['code'];
         $pic = $res['id'];
+        print_r($res);
         if($code){
             echo "开始下单";
             $result=$this->doOrder($goodsNum,$code,$cookie);
-            if($result!=="captcha_error"){
+            if($result=="captcha_error"){
                  echo "识别失败 开始退单";
                 echo "\n";
                 $msg=$this->CJY_ReportError('w258765',md5('w258765'),$pic,'217309ae4cb4d37f8c85e26b6fad0159');
                 echo "退单完成，返回信息".json_encode($msg);
                 echo "\n";
             }
+            print_r($result) ;
+            echo "结束下单";
             echo "\n";
         }else{
             echo "识别失败";
@@ -53,7 +56,6 @@
             CURLOPT_CUSTOMREQUEST => "POST",
             CURLOPT_HTTPHEADER => array(
             $cookie,
-            $cookie,
             "User-Agent: PostmanRuntime/7.22.0",
             "Accept: */*",
             "Cache-Control: no-cache",
@@ -74,8 +76,6 @@
         $result=$this->tlbbChang($cookie,$goodsNum,$base64_image_final);
         echo "结束识别";
         echo "\n";
-        print_r($result);
-
 
        
         if(!empty($result['code'])){
@@ -91,34 +91,35 @@
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-          CURLOPT_URL => "http://tl.cyg.changyou.com/transaction/buy?=",
-          CURLOPT_RETURNTRANSFER => true,
-          CURLOPT_ENCODING => "",
-          CURLOPT_MAXREDIRS => 10,
-          CURLOPT_TIMEOUT => 0,
-          CURLOPT_FOLLOWLOCATION => true,
-          CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-          CURLOPT_CUSTOMREQUEST => "POST",
-          CURLOPT_POSTFIELDS => "goods_serial_num=$goodsNum&captcha_code=$code",
-          CURLOPT_HTTPHEADER => array(
-            $cookie,
-            "Content-Type: application/x-www-form-urlencoded",
-            $cookie,
-            "User-Agent: PostmanRuntime/7.22.0",
-            "Accept: */*",
-            "Cache-Control: no-cache",
-            "Postman-Token: 48bbafe7-7554-4e4e-af9a-eb098f9ccdd8",
-            "Host: tl.cyg.changyou.com",
-            "Accept-Encoding: gzip, deflate, br",
-            "Content-Length: 53",
-            "Connection: keep-alive"
-          ),
-        ));
-        
-        $response = curl_exec($curl);
-        
-        curl_close($curl);
-        return $response;
+            CURLOPT_URL => "http://tl.cyg.changyou.com/transaction/buy?=",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => "goods_serial_num=$goodsNum&captcha_code=$code",
+            CURLOPT_HTTPHEADER => array(
+              $cookie,
+              "Content-Type: application/x-www-form-urlencoded",
+              $cookie,
+              "Cookie: NOTE_CACHE=%5B%7B%22id%22%3A200%2C%22title%22%3A%22%E6%B5%8B%E6%9C%8D%E9%BE%99%E9%97%A8NPC%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1432711191000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A198%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%E5%AE%8C%E6%88%90%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431314942000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A197%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431312451000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A196%2C%22title%22%3A%22%E3%80%904%E6%9C%8817%E6%97%A5%E7%BB%B4%E6%8A%A4%E3%80%91%E7%95%85%E6%98%93%E9%98%81.%E9%81%93%E5%85%B7%E5%9D%8A%E7%BB%B4%E6%8A%A4%E5%85%AC%E5%91%8A%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1429156000000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A192%2C%22title%22%3A%22%E3%80%90%E6%96%B0%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%E3%80%91%E4%BB%A4%E7%89%8C%E5%B1%95%E7%A4%BA%E5%8A%9F%E8%83%BD%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1427165782000%2C%22context%22%3A%22'TL''ZJ'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%5D; NOTE_UPDATE_TIME=1582952445234; macid=C87E6C3764B0000161E6B4027DB019DC; _ga=GA1.2.879713598.1561188145; pgv_pvi=7768772395; bdshare_firstime=1580351547920; sid=d92d9345-2898-4e64-a3dc-f017d88f62ec; Apache=113.121.232.197.1582952071890191; productid=-1; last_product_id=-1; accessid=C8CF7FEA48600001DF3E150A6AA73400; accessid_settime=1582952072366; softlinkdomain=; softlinkpage=; keyword=; engineid=; sourcetype=direct_access; visittime=1582954168160; last_domain=http%3A//zhuce.changyou.com/regInit.act; tongji=adid__access_id_C8CF7FEA48600001DF3E150A6AA73400_product_id_-1_source_type_direct_access_engine_id__key_word__soft_link_domain__soft_link_page__last_product_id_-1_last_domain_http%3A//zhuce.changyou.com/regInit.act_current_domain_http%3A//zhuce.changyou.com/reg.act_top_page_http%3A//zhuce.changyou.com/regInit.act%3FgameType%3DPE-ZHPT_mac_id_C87E6C3764B0000161E6B4027DB019DC_mac_new_0_method_normal_sessionid_113.121.232.197.1582952071890191; CASGTC=GTC-17462EC9-12FA-4AD5-862E-C697873F5E08-1582954196982; qrcodeid=74114deedfbc5f182fdd2780cfae8bb9301fce721666bb1a0f86269b1b2b8d20d52864e09720a6342a20a10252d76304; COOKIE_GOODS_SCANED=%25E8%2589%25BE%25E7%2591%259E%25E5%25B7%25B4%25E8%2592%2582%25E8%25B7%25B3%25EF%25BC%258E%253D20200219000512794%253D99900.0%253D3%2527%25E7%25BE%25BD%25E7%25BF%25BC%25E7%25BF%25BC%25E2%2580%25A6%253D202002221346279322%253D555.0%253D7%2527%25EF%25B9%258E%25E9%2586%2589%25E5%2587%258C%25E9%2580%258D%25E3%2582%259E%253D20200218246457520%253D358888.0%253D8%2527%25E8%2590%25A7%25E5%25B8%2583%25E8%25A1%25A3%253D202002222235087784%253D500.0%253D3%2527%25EF%25BC%258E%25E9%259D%2592%25E6%259F%25A0%25E3%2581%25A3%253D202002261230413581%253D100.0%253D11; JSESSIONID=1406F4DC43C5A5FCE918626B8B09FB36; sid=be0f76e6-331a-4b79-a487-87bb677be182; JSESSIONID=5681B0D5515E6FC2FB06D3F864BF6183",
+              "User-Agent: PostmanRuntime/7.22.0",
+              "Accept: */*",
+              "Cache-Control: no-cache",
+              "Postman-Token: dc390c05-a552-484f-bf0d-3fa8ef18718f",
+              "Host: tl.cyg.changyou.com",
+              "Accept-Encoding: gzip, deflate, br",
+              "Content-Length: 304",
+              "Connection: keep-alive"
+            ),
+          ));
+          
+          $response = curl_exec($curl);
+          echo $response;
+          curl_close($curl);
+          return $response;
     }
 
 
