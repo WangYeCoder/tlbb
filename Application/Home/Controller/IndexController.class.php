@@ -27,13 +27,13 @@
             echo "开始下单";
             $result=$this->doOrder($goodsNum,$code,$cookie);
             print_r($result) ;
-            if($result=="captcha_error"){
-                 echo "识别失败 开始退单";
-                echo "\n";
-                $msg=$this->CJY_ReportError('w258765',md5('w258765'),$pic,'217309ae4cb4d37f8c85e26b6fad0159');
-                echo "退单完成，返回信息".json_encode($msg);
-                echo "\n";
-            }
+            // if($result=="captcha_error"){
+            //      echo "识别失败 开始退单";
+            //     echo "\n";
+            //     $msg=$this->CJY_ReportError('w258765',md5('w258765'),$pic,'217309ae4cb4d37f8c85e26b6fad0159');
+            //     echo "退单完成，返回信息".json_encode($msg);
+            //     echo "\n";
+            // }
             echo "结束下单";
             echo "\n";
         }else{
