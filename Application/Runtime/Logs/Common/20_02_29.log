@@ -1,0 +1,24 @@
+[ 2020-02-29T11:20:37+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD C:\phpstudy_pro\WWW\thinkphp\ThinkPHP\Library\Think\App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI C:\phpstudy_pro\WWW\thinkphp\ThinkPHP\Library\Think\Dispatcher.class.php 第 141 行.
+ERR: 无法加载模块:Script
+
+[ 2020-02-29T11:21:29+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD C:\phpstudy_pro\WWW\thinkphp\ThinkPHP\Library\Think\App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI C:\phpstudy_pro\WWW\thinkphp\ThinkPHP\Library\Think\Dispatcher.class.php 第 141 行.
+ERR: 无法加载模块:Script
+
+[ 2020-02-29T12:48:24+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD C:\phpstudy_pro\WWW\thinkphp\ThinkPHP\Library\Think\App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI C:\phpstudy_pro\WWW\thinkphp\ThinkPHP\Library\Think\Dispatcher.class.php 第 141 行.
+ERR: 无法加载模块:Script
+
