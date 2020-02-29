@@ -90,7 +90,7 @@
           CURLOPT_MAXREDIRS => 10,
           CURLOPT_TIMEOUT => 0,
           CURLOPT_REFERER => "http://www.hzhuti.com/",
-          CURLOPT_HTTPHEADER => array('X-FORWARDED-FOR:8.8.8.8', 'CLIENT-IP:8.8.8.8')),
+          CURLOPT_HTTPHEADER => array('X-FORWARDED-FOR:8.8.8.8','CLIENT-IP:8.8.8.8'),
           CURLOPT_FOLLOWLOCATION => true,
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "POST",
