@@ -58,6 +58,7 @@
         ));
         
         $response = curl_exec($curl);
+        curl_close($curl);
 
         $base64_image_final = base64_encode($response);
 
@@ -117,7 +118,6 @@
             return "还没开始抢";
             echo "\n";
         }
-        curl_close($curl);
     }
 
 
