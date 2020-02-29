@@ -89,6 +89,8 @@
           CURLOPT_ENCODING => "",
           CURLOPT_MAXREDIRS => 10,
           CURLOPT_TIMEOUT => 0,
+          CURLOPT_REFERER => "http://www.hzhuti.com/"
+          CURLOPT_HTTPHEADER => array('X-FORWARDED-FOR:8.8.8.8', 'CLIENT-IP:8.8.8.8'));
           CURLOPT_FOLLOWLOCATION => true,
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "POST",
@@ -103,6 +105,7 @@
             "Postman-Token: 48bbafe7-7554-4e4e-af9a-eb098f9ccdd8",
             "Host: tl.cyg.changyou.com",
             "Accept-Encoding: gzip, deflate, br",
+            
             "Content-Length: 53",
             "Connection: keep-alive"
           ),
