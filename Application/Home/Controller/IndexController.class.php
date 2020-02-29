@@ -16,26 +16,25 @@
     public  function doStart()
     {
         //cookie时间很久 超过半小时 验证码图片那里获取过来 通用于下订单
-        $goodsNum = "20200218017546443";
-        $cookie= "Cookie: "."NOTE_CACHE=%5B%7B%22id%22%3A200%2C%22title%22%3A%22%E6%B5%8B%E6%9C%8D%E9%BE%99%E9%97%A8NPC%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1432711191000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A198%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%E5%AE%8C%E6%88%90%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431314942000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A197%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431312451000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A196%2C%22title%22%3A%22%E3%80%904%E6%9C%8817%E6%97%A5%E7%BB%B4%E6%8A%A4%E3%80%91%E7%95%85%E6%98%93%E9%98%81.%E9%81%93%E5%85%B7%E5%9D%8A%E7%BB%B4%E6%8A%A4%E5%85%AC%E5%91%8A%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1429156000000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A192%2C%22title%22%3A%22%E3%80%90%E6%96%B0%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%E3%80%91%E4%BB%A4%E7%89%8C%E5%B1%95%E7%A4%BA%E5%8A%9F%E8%83%BD%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1427165782000%2C%22context%22%3A%22'TL''ZJ'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%5D; NOTE_UPDATE_TIME=1582956918873; macid=C87E6C3764B0000161E6B4027DB019DC; _ga=GA1.2.879713598.1561188145; pgv_pvi=7768772395; bdshare_firstime=1580351547920; sid=d92d9345-2898-4e64-a3dc-f017d88f62ec; Apache=113.121.232.197.1582952071890191; productid=-1; last_product_id=-1; softlinkdomain=; softlinkpage=; keyword=; engineid=; sourcetype=direct_access; CASGTC=GTC-17462EC9-12FA-4AD5-862E-C697873F5E08-1582954196982; accessid=C8CF85D851E00001945911E016B22890; accessid_settime=1582958290249; visittime=1582958384384; last_domain=http%3A//zhuce.changyou.com/newRegTLDeepPerson.act; tongji=adid__access_id_C8CF85D851E00001945911E016B22890_product_id_-1_source_type_direct_access_engine_id__key_word__soft_link_domain__soft_link_page__last_product_id_-1_last_domain_http%3A//zhuce.changyou.com/newRegTLDeepPerson.act_current_domain_http%3A//zhuce.changyou.com/newRegtlDeep.act_top_page_http%3A//zhuce.changyou.com/regInit.act%3FgameType%3DPE-DHSH_mac_id_C87E6C3764B0000161E6B4027DB019DC_mac_new_0_method_normal_sessionid_113.121.232.197.1582952071890191; NOTE_UPDATE_TIME=1582958590229; NOTE_CACHE=%5B%7B%22id%22%3A200%2C%22title%22%3A%22%E6%B5%8B%E6%9C%8D%E9%BE%99%E9%97%A8NPC%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1432711191000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A198%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%E5%AE%8C%E6%88%90%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431314942000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A197%2C%22title%22%3A%22%E5%AE%A0%E7%88%B1%E4%B8%80%E7%94%9F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E6%8A%A4%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1431312451000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A196%2C%22title%22%3A%22%E3%80%904%E6%9C%8817%E6%97%A5%E7%BB%B4%E6%8A%A4%E3%80%91%E7%95%85%E6%98%93%E9%98%81.%E9%81%93%E5%85%B7%E5%9D%8A%E7%BB%B4%E6%8A%A4%E5%85%AC%E5%91%8A%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1429156000000%2C%22context%22%3A%22'TL'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%2C%7B%22id%22%3A192%2C%22title%22%3A%22%E3%80%90%E6%96%B0%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%E3%80%91%E4%BB%A4%E7%89%8C%E5%B1%95%E7%A4%BA%E5%8A%9F%E8%83%BD%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81%22%2C%22content%22%3A%22%22%2C%22addTime%22%3A1427165782000%2C%22context%22%3A%22'TL''ZJ'%22%2C%22publishUser%22%3A%22%22%2C%22stick%22%3A0%2C%22stickTime%22%3Anull%2C%22deleteFlag%22%3A0%7D%5D; qrcodeid=63e5aba86b692322c16d08806112ed34e2d793609bea3ce816f370eef909d4d8cbb2d414e7a10fbbb1ed7857342bf32c; COOKIE_GOODS_SCANED=%25E9%258A%2598%25E9%2597%25A8%253D20200218017546443%253D455555.0%253D7%2527Summer%25E2%2584%25A1%25E5%25BF%25B5%253D202002221425419907%253D2100.0%253D8%2527%25E5%2597%25AF%25E5%25B0%258F%25E5%2593%25BC%25EF%25BC%258E%25CB%258B%253D20200210918490733%253D50900.0%253D11%2527%25E5%2585%259C%25E5%2585%259C%25EF%25BC%258E%25E3%2583%25A4%253D202002221428309948%253D380.0%253D11%2527%25EF%25B9%25A1%25EF%25BC%258E%25E7%25B4%2585%25E4%25BA%25BA%25EF%25B9%258D%253D20200215930317729%253D280900.0%253D11%2527; JSESSIONID=2AE3A264DF46D22B3C8039701C7246DF";
+        $goodsNum = "202002161222136695";
+        $cookie="Cookie: macid=C87E6C3764B0000161E6B4027DB019DC; _ga=GA1.2.879713598.1561188145; pgv_pvi=7768772395; bdshare_firstime=1580351547920; sid=d92d9345-2898-4e64-a3dc-f017d88f62ec; qrcodeid=f72fb9e6eda06c6a2b62beb127fa4e45aaae7f7f4ea8ca64efb14fdf0d73b260086c2d8d5ca8c795a4db4126f1fbfb5e; COOKIE_GOODS_SCANED=%25EF%25B9%25A1%25EF%25BC%258E%25E7%25B4%2585%25E4%25BA%25BA%25EF%25B9%258D%253D20200215930317729%253D280900.0%253D11%2527%25E9%258A%2598%25E9%2597%25A8%253D20200218017546443%253D455555.0%253D7%2527%25E3%2581%2583%25E5%2590%259B%25E4%25B8%25B4%25E3%2583%25BD%25E9%25A6%25A8%25E5%2584%25BF%253D202002222321278566%253D269999.0%253D8%2527%25E5%258F%25AA%25E6%259C%2589%25E3%2581%2590%25E5%25BD%25B1%25E5%25AD%2590%253D202002251636501037%253D200.0%253D10%2527%25E2%2580%25B2%25EF%25BC%258E%25E9%259B%25B6%25E9%259B%25B6%25EF%25BC%258E%25E3%2582%259D%253D20200224914467472%253D499.0%253D8; JSESSIONID=98CBC5609736A11138F5EA20B921F37B";
         $res=$this->getImgTem($cookie,$goodsNum);
-        echo $res;
         $code =$res['code'];
         $pic = $res['id'];
         if($code){
-           echo "开始下单";
+            echo "开始下单";
             $result=$this->doOrder($goodsNum,$code,$cookie);
-            if($result=="captcha_error"){
-                echo "识别失败 开始退单";
+            if($result!=="captcha_error"){
+                 echo "识别失败 开始退单";
                 echo "\n";
                 $msg=$this->CJY_ReportError('w258765',md5('w258765'),$pic,'217309ae4cb4d37f8c85e26b6fad0159');
                 echo "退单完成，返回信息".json_encode($msg);
                 echo "\n";
             }
-            echo "下单结果".$result;
             echo "\n";
         }else{
             echo "识别失败";
+            die();
         }
     }
 
@@ -44,7 +43,7 @@
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "http://tl.cyg.changyou.com/transaction/captcha-image?goods_serial_num=$goodsNum",
+            CURLOPT_URL => "http://tl.cyg.changyou.com/transaction/captcha-image?goods_serial_num=$goodsNum&t=1582944138077",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -77,7 +76,6 @@
         echo "\n";
         print_r($result);
 
-        curl_close($curl);
 
        
         if(!empty($result['code'])){
@@ -98,8 +96,6 @@
           CURLOPT_ENCODING => "",
           CURLOPT_MAXREDIRS => 10,
           CURLOPT_TIMEOUT => 0,
-          CURLOPT_REFERER => "http://www.hzhuti.com/",
-          CURLOPT_HTTPHEADER => array('X-FORWARDED-FOR:8.8.8.8','CLIENT-IP:8.8.8.8'),
           CURLOPT_FOLLOWLOCATION => true,
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "POST",
@@ -114,7 +110,6 @@
             "Postman-Token: 48bbafe7-7554-4e4e-af9a-eb098f9ccdd8",
             "Host: tl.cyg.changyou.com",
             "Accept-Encoding: gzip, deflate, br",
-            
             "Content-Length: 53",
             "Connection: keep-alive"
           ),
@@ -123,23 +118,19 @@
         $response = curl_exec($curl);
         
         curl_close($curl);
-      
-        if($response){
-            return $response;
-        }else{
-            return "还没开始抢";
-            echo "\n";
-        }
+        return $response;
     }
 
 
     public function tlbbChang($cookie,$goodsNum,$img){ 
+
             try{
+
         //超级鹰账号信息
         $user		= 'w258765';				//超级鹰用户账号
         $pass		= md5('w258765');			//经过md5加密的密码
         $softid		= '217309ae4cb4d37f8c85e26b6fad0159';			//软件ID 用户中心>软件ID 可以生成
-        $codetype	= '1902' ;			//码图类型,查看更多类型 https://www.chaojiying.com/price.html
+        $codetype	= '1004' ;			//码图类型,查看更多类型 https://www.chaojiying.com/price.html
         // $userfile	= 'img.jpg' ;		//注意PHP是否能正确取得图片数据，关注下PHP权限和图片路径  注意有时windows系统须要用到绝对路径
         $base64_str	= $img ;				//base64字符串方式 参考 https://www.chaojiying.com/api-46.html
 
