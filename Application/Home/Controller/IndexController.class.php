@@ -67,7 +67,6 @@
         ));
         
         $response = curl_exec($curl);
-        curl_close($curl);
 
         $base64_image_final = base64_encode($response);
 
@@ -78,6 +77,7 @@
         echo "\n";
         print_r($result);
 
+        curl_close($curl);
 
        
         if(!empty($result['code'])){
