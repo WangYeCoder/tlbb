@@ -24,7 +24,7 @@
         if($code){
             echo "开始下单";
             $result=$this->doOrder($goodsNum,$code,$cookie);
-            if($result!=="captcha_error"){
+            if($result=="captcha_error"){
                  echo "识别失败 开始退单";
                 echo "\n";
                 $msg=$this->CJY_ReportError('w258765',md5('w258765'),$pic,'217309ae4cb4d37f8c85e26b6fad0159');
@@ -116,6 +116,8 @@
         ));
         
         $response = curl_exec($curl);
+      
+        echo $response;
         
         curl_close($curl);
         return $response;
