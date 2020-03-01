@@ -1,0 +1,60 @@
+[ 2020-03-01T10:16:10+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003022s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 141 行.
+NOTIC: [2] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' (this will throw an Error in a future version of PHP) C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+ERR: 无法加载控制器:Tlbb
+
+[ 2020-03-01T10:16:30+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 141 行.
+NOTIC: [2] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' (this will throw an Error in a future version of PHP) C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+ERR: Class 'Home\Work\Bases' not found
+
+[ 2020-03-01T10:16:54+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 141 行.
+NOTIC: [2] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' (this will throw an Error in a future version of PHP) C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+ERR: Class 'Home\Work\Bases' not found
+
+[ 2020-03-01T10:16:55+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 141 行.
+NOTIC: [2] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' (this will throw an Error in a future version of PHP) C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+ERR: Class 'Home\Work\Bases' not found
+
+[ 2020-03-01T10:19:19+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 141 行.
+NOTIC: [2] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' (this will throw an Error in a future version of PHP) C:\phpstudy_pro\WWW\tlbb\ThinkPHP\Library\Think\Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+ERR: 非法操作:account1
+
