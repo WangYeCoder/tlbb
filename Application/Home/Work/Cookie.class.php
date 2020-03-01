@@ -4,7 +4,7 @@
     {
 
      public function getGoodsNumber(){
-         $goodsNumber = '202002231255404321';
+         $goodsNumber = '202002231529586544';
          return $goodsNumber;
      }
     
